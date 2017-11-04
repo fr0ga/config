@@ -33,7 +33,7 @@ namespace My
         }
 
 
-    }
+    } 
     public class Companies : ConfigurationElementCollection
     {
 
