@@ -47,7 +47,7 @@ namespace ConfigFile
             }
         }
 
-        public new Company this[string responseString]
+        /*public new Company this[string responseString]
         {
             get { return (Company)BaseGet(responseString); }
             set
@@ -58,7 +58,7 @@ namespace ConfigFile
                 }
                 BaseAdd(value);
             }
-        }
+        }*/
 
         protected override System.Configuration.ConfigurationElement CreateNewElement()
         {
@@ -116,6 +116,8 @@ namespace ConfigFile
             }
 
            
+
+
 
             Console.ReadKey();
         }
